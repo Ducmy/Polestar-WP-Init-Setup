@@ -54,6 +54,8 @@ define( 'FS_METHOD', 'direct' ); // Dùng để cài đặt plugin trên local
 - CONTACT-FORM-7
 
 - LOCO TRANSLATE
+   - Issue: cài đặt bị một số lỗi conflit với contact-form-7
+     + Cách giải quyết: xóa parent theme, setup lại ngôn ngữ, tạo lại một form mới.
 
 
 #### 4. Tạo 2 MENU

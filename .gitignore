@@ -2,3 +2,4 @@ wp-includes/*
 wp-admin/*
 /wp-includes/*
 /wp-admin/*
+.DS_Store

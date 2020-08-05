@@ -1,0 +1,86 @@
+/*
+Theme Name: Mychildtheme
+Theme URI: http: //hoclamwebnhanh.com
+Author: MyNguyen
+Author URI: http: //hoclamwebnhanh.com
+Template: polestar
+Version: 0.1
+*/
+
+@import url("../polestar/style.css");
+
+/*****************************************************/
+/*******************   Common   **********************/
+/*****************************************************/
+
+a {
+    cursor: pointer;
+}
+
+
+
+/*****************************************************/
+/*******************   Header   **********************/
+/*****************************************************/
+
+.small-top-menu {
+    width: 65%;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+}
+
+.small-top-menu a {
+    cursor: pointer;
+}
+
+.main-navigation .current-menu-item > a {
+  text-transform: uppercase;
+}
+
+/*****************************************************/
+/*******************  Custom Side  *******************/
+/*****************************************************/
+
+/*****************************************************/
+/*******************   Page   ************************/
+/*****************************************************/
+
+
+.columns-2.woocommerce .products .product {
+    width: 100%;
+}
+
+/*****************************************************/
+/*******************  Single  post *******************/
+/*****************************************************/
+
+/* Single Product */
+.single-product .left-sidebar-product {
+    width: 30%;
+    float: left;
+    padding-right: 4%;
+}
+
+.single-product .content-area {
+    width: 70%;
+    float: right;
+}
+
+@media (max-width: 1024px) {
+    .single-product .left-sidebar-product {
+        width: 100%;
+        float: none;
+        padding-right: 4%;
+    }
+    
+    .single-product .content-area {
+        width: 100%;
+        float: none;
+    }
+}
+
+/*****************************************************/
+/*******************   Footer   **********************/
+/*****************************************************/

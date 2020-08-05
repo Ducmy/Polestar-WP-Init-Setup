@@ -3,9 +3,10 @@
 1. Các thiết lập ban đầu:
 Setup maximum dung lượng file được upload:
 
-## .htaccess
+#### .htaccess
 
-`php_value upload_max_filesize 200M
+``` php
+php_value upload_max_filesize 200M
 php_value post_max_size 200M
 php_value memory_limit 256M
 php_value max_execution_time 300
@@ -17,15 +18,13 @@ RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
-</IfModule>`
-
----
-***
-___
+</IfModule>
+```
 
 wp-config.php
 
-`define( 'FS_METHOD', 'direct' ); // Dùng để cài đặt plugin trên local
+``` php
+define( 'FS_METHOD', 'direct' ); // Dùng để cài đặt plugin trên local
 
 // Các option tương tự để tănt dung lượng
 @ini_set( 'upload_max_filesize' , '200M' );
@@ -33,7 +32,7 @@ wp-config.php
 @ini_set( 'memory_limit', '256M' );
 @ini_set( 'max_execution_time', '300' );
 @ini_set( 'max_input_time', '300' );
-`
+```
 
 2. Cài đặt theme polestar
 

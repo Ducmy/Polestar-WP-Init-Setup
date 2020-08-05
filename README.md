@@ -53,6 +53,8 @@ define( 'FS_METHOD', 'direct' ); // Dùng để cài đặt plugin trên local
 
 - CONTACT-FORM-7
 
+- LOCO TRANSLATE
+
 
 #### 4. Tạo 2 MENU
 
